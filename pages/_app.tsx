@@ -1,7 +1,7 @@
 import Tina from '../.tina/components/TinaDynamicProvider.js'
-import '../styles/globals.css'
+import '../styles/main.css';
 
-  const App = ({ Component, pageProps }) => {
+  const App = ({ Component, pageProps }:{Component:any,pageProps:any}) => {
   return (
     <Tina>
         <Component {...pageProps} />
